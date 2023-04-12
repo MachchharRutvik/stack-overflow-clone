@@ -1,0 +1,35 @@
+{
+  "users": [
+    {
+      "displayName": "rutvikmachchhar",
+      "email": "rutvikkhatri111@gmail.com",
+      "password": "Rutvik@123",
+      "id": 1
+    },
+    {
+      "displayName": "rutvik",
+      "email": "rutvikkhatri111@gmail.com",
+      "password": "12345678",
+      "id": 2
+    },
+    {
+      "displayName": "yug",
+      "email": "yug123@gmail.com",
+      "password": "yug@1234",
+      "id": 3
+    }
+  ],
+  "userWiseQuestions": [],
+  "questions": [
+    {
+      "title": "qwe",
+      "description": "qwe",
+      "tags": "qwe",
+      "views": 0,
+      "votes": 0,
+      "userId": 2,
+      "answers": [],
+      "id": 1
+    }
+  ]
+}

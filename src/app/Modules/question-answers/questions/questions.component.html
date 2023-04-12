@@ -1,0 +1,21 @@
+<div class="row g-3 m-lg-5 d-flex justify-content-center">
+    <div class="row w-auto mt-auto" *ngFor="let question of questions">
+        <h3>All Questions</h3>
+        <hr>
+        <div class="col d-flex">
+            <div class="col-md-7 d-flex-col">
+                <div> {{question.votes || ''}} votes</div>
+                <div> {{question.answers.length || ''}} answers</div>
+                <div> {{question.views || ''}} views</div>
+            </div>
+            <div class="col-md-10 d-flex-col">
+                <a class="text-decoration-none text-dark" [routerLink]="['questions/',question.id]">
+                    <div>{{question.title || ''}}</div>
+                    <div>{{question.description || ''}}</div>
+                    <div>{{question.tags || ''}}</div>
+                </a>
+            </div>
+
+        </div>
+    </div>
+</div>

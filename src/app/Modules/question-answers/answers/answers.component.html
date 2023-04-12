@@ -1,0 +1,7 @@
+<div class="" *ngIf="question">
+    <h1>{{question.title || ''}}</h1>
+    <form [formGroup]="answerForm">
+        <textarea name="" id="" cols="50" rows="5" formControlName="answer" placeholder="enter answer"></textarea>
+        <button [disabled]="answer.invalid" (click)="addAnswer()">Add Answer</button>
+    </form>
+</div>
